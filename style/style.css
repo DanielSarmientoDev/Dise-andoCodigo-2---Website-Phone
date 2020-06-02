@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(#60efff,#0061ff); */
+    background-image: url(/administracion_de_empresas.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+    position: relative;
+}
+.fondo{
+    width: 100%;
+    height: 100vh;
+    margin-top: -20px;
+        background: linear-gradient(#60efff,#0061ff);
+opacity: .7;
+    position: absolute;
+    z-index: -1;
+}
+
+.container-header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-header a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 3px;
+}
+
+.container-header .Home{
+    border-bottom: 1px solid white;
+}
+.container-header .contact{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px 10px;
+    transition: 1s;
+}
+
+.container-header .contact:hover{
+    background: white;
+    color: #0061ff;
+    transition: 1s;
+}
+
+.container-header .logo-img img{
+    width: 132px;
+    height: 98px;
+    margin-top: 60px;
+}
+
+.container-nav{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+}
+
+.container-nav .container-left{
+    margin-top: 150px;
+    
+}
+
+.container-nav .container-left ul li{
+    color: white;
+    list-style:disc;
+    margin-left: 30px;
+}
+
+.container-nav .container-left h1{
+    font-size: 5rem;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.container-nav .container-left p{
+    color: white;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+.container-nav .container-img-download img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.container-nav .container-right img{
+    width: 250px;
+    height: 500px;
+    margin-top: 40px;
+}
